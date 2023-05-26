@@ -30,6 +30,7 @@
             motion:layout_editor_absoluteX="118dp" />
     </ConstraintSet>
     <Transition
+        motion:autoTransition="animateToEnd"
         motion:constraintSetStart="@+id/start"
         motion:constraintSetEnd="@+id/end" >
         <KeyFrameSet >
